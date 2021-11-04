@@ -55,6 +55,12 @@ myElement.hidden = true
 myElement.remove()
 ```
 
+- Click an Element
+
+```
+myElement.click()
+```
+
 - Select all elements on a page that match selector.
 ```
 document.querySelectorAll('<MY_CSS_SELECTOR>')

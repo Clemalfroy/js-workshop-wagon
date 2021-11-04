@@ -6,7 +6,7 @@
 
 ### Help to code
 
-⚠️ Everything that starts with `my` is something that you have to change with your own values.
+⚠️ Everything that starts with `my` is something that you have to change with your own values. ⚠️
 
 - Display a value in the console
 

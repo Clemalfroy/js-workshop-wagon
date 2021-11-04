@@ -17,7 +17,7 @@ const validateElement = (element) => {
 
 const titleIsValid = () => {
   const title = document.querySelector('h1')
-  if (title.innerText !== 'Hello guys !') {
+  if (title.innerText !== 'Javascript Workshop - Hello World !') {
     validateElement(titleCheck)
   }
 }

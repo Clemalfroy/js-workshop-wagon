@@ -49,6 +49,12 @@ myElement.innerText = 'myNewText'
 myElement.hidden = true
 ```
 
+- Remove an Element
+
+```
+myElement.remove()
+```
+
 - Select all elements on a page that match selector.
 ```
 document.querySelectorAll('<MY_CSS_SELECTOR>')

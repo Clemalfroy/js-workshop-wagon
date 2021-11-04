@@ -1,5 +1,7 @@
 # JS Workshop
 
+Go to [workshop site](https://js-workshop-wagon.surge.sh/)
+
 ## Worskop course
 
 Checkout the [course](https://learn.lewagon.com/)

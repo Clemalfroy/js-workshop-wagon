@@ -2,7 +2,13 @@
 
 ## Worskop course
 
+Checkout the [course](https://learn.lewagon.com/)
+
 ### Concepts to remember
+
+- A variable is here to store a value so that you can reuse it later.
+- In order to interact with the DOM, you need to use the `document` object and select elements.
+- Each HTML elements have a set of properties and methods that you can use to interact with them.
 
 ### Help to code
 

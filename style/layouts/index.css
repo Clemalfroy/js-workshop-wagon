@@ -1,0 +1,14 @@
+#mainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#mainContent {
+  width: 100%;
+}
+
+#mainContent #exercices {
+  padding: var(--medium-gap);
+}
+
+

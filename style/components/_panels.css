@@ -1,0 +1,22 @@
+#checkPanel {
+  width: 400px;
+  background-color: rgb(230, 226, 210);
+  height: 100vh;
+  padding: var(--medium-gap)
+}
+
+#checkPanel h2 {
+  margin-bottom: var(--large-gap);
+  text-align: center;
+}
+
+.verif {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--medium-gap);
+}
+
+.verif span {
+  color: var(--green);
+}

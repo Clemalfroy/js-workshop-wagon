@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first JS Workshop</title>
+  <link rel="stylesheet" href=" ./style/style.css">
+</head>
+
+<body>
+
+  <div id="mainContainer">
+    <div id="mainContent">
+      <img id="banner" src="./assets/banner.webp" alt="banner">
+      <div id="exercices">
+        <h1 id="pageTitle">Javascript Workshop - Hello World !</h1>
+        <div id="payPopup">
+          <img class="unblurred" src="./assets/cookies.png" alt="">
+        </div>
+        <div id="movingButtonSection">
+          <button id="movingButton"   data-clicked="false">Click me</button>
+        </div>
+        <div id="hiddenSection" hidden>
+          <p>Thanks for revealing me !</p>
+          <img id="wagonLogo"src="./assets/wagon.png" alt="Wagon logo" width="100" height="100">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Verification code  -->
+
+    <div id="checkPanel">
+      <h2>Verification</h2>
+        <p class="verif">
+          Title has been changed: <span id="titleCheck">❌</span>
+        </p>
+        <p class="verif">
+          Cookie Popup is deleted: <span id="removePopupCheck">❌</span>
+        </p>
+        <p class="verif">
+          Section has been revealed: <span id="hiddenSectionCheck">❌</span>
+        </p>
+        <p class="verif">
+          Button has been clicked: <span id="buttonClicked">❌</span>
+        </p>
+        <p class="verif">
+          Body is in edit mode: <span id="bodyEditCheck">❌</span>
+        </p>
+        <p class="verif">
+          All images are unblurred: <span id="imageBluredCheck">❌</span>
+        </p>
+        <p class="verif">
+          Play sound when you click anywhere on the page <span id="soundCheck">❌</span>
+        </p>
+        <p class="verif">
+          Wagon can move: <span id="wagonMoveCheck">❌</span>
+        </p>
+    </div>
+
+    <!--  End of verification code -->
+
+  </div>
+
+
+  <script src="./js/hidden/init.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/hidden/verif.js"></script>
+</body>
+
+</html>

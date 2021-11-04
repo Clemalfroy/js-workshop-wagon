@@ -1,0 +1,22 @@
+@import 'config/index.css';
+@import 'utils/index.css';
+@import 'components/index.css';
+@import 'layouts/index.css';
+
+
+body {
+  background-color: var(--light-cream);
+  font-family: var(--default-font);
+  margin: 0
+}
+
+* {
+    box-sizing: border-box;
+    letter-spacing: .1px;
+    color: #4a4a4a;
+    color: var(--dark-grey);
+    font-size: 1em;
+    font-family: Inter,sans-serif,SimHei;
+    font-family: var(--content),var(--content-hanzi);
+    font-variation-settings: "wght" 400;
+}

@@ -1,0 +1,11 @@
+#movingButtonSection button {
+  padding: var(--small-gap);
+  background-color: var(--red);
+  color: var(--white-color);
+  border-radius: var(--border-radius-default);
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  margin: 20px;
+}

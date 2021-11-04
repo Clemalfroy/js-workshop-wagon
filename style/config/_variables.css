@@ -1,0 +1,89 @@
+:root {
+  /* Variables */
+
+  /*Colors*/
+  --primary-color: rgb(255, 38, 0);
+  --background-color: rgb(224, 220, 202);
+  --darker-gray: rgb(182, 182, 182);
+  --white-color: rgb(250, 250, 250);
+  --dark-color: rgb(36, 34, 34);
+  /* End Colors */
+
+  --font-title: "Helvetica Neue", "Helvetica";
+  --default-font: "Helvetica";
+  --base-gap: 1rem;
+  --border-radius-default: 4px;
+
+
+/* Computed */
+  --small-gap: calc(var(--base-gap) * 1);
+  --medium-gap: calc(var(--base-gap) * 2);
+  --large-gap: calc(var(--base-gap) * 3);
+
+  --red: #fd1015;
+  --dark-red: #c40004;
+  --light-red: #ffe0e1;
+  --black: #0e0000;
+  --dark-grey: #4a4a4a;
+  --grey: #4b4b4b;
+  --light-grey: #eaeaea;
+  --smooth-grey: #efefef;
+  --light-black: #9c9c9c;
+  --cream: #fcf5e8;
+  --transparent-cream: rgba(255,242,219,0.5019607843137255);
+  --dark-cream: #ddd5c3;
+  --light-cream: #fcf5e8;
+  --purple: #7971fb;
+  --light-purple: #ebe9fe;
+  --blue: #62ddf5;
+  --light-blue: #e8fafe;
+  --dark-blue: #1db2ff;
+  --green: #1edd88;
+  --light-green: #e4fff3;
+  --yellow: #ffc65a;
+  --light-yellow: #fff7e8;
+  --indigo: #7e73ff;
+  --light-indigo: #eceaff;
+  --circular-bold: "CircularStd-Bold",sans-serif;
+  --circular-black: "CircularStd-Black",sans-serif;
+  --content: "Inter",sans-serif;
+  --content-hanzi: SimHei;
+  --big-title: 40px;
+  --extra-small-paragraph: 12px;
+  --plyr-color-main: #fd1015;
+  --box-shadow: 0 15px 35px rgba(126,87,88,0.1),0 5px 15px rgba(0,0,0,0.07);
+  --light-box-shadow: 0 0px 0px rgba(126,87,88,0.1),0 8px 10px rgba(0,0,0,0.07);
+  --linear-gradient: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.4) 70%);
+  --linear-gradient-light: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.3) 90%);
+  --linear-gradient-header: linear-gradient(180deg,rgba(19,19,19,0.85),rgba(0,0,0,0.85));
+  --linear-bottom-gradient: linear-gradient(180deg,transparent,rgba(0,0,0,0.3) 80%);
+  --light-linear-gradient-header: linear-gradient(38deg,rgba(0,0,0,0.5) 28%,transparent);
+  --lt-color-gray-100:  #f8f9fc;
+  --lt-color-gray-200:  #f1f3f9;
+  --lt-color-gray-300:  #dee3ed;
+  --lt-color-gray-400:  #c2c9d6;
+  --lt-color-gray-500:  #8f96a3;
+  --lt-color-gray-600:  #5e636e;
+  --lt-color-gray-700:  #2f3237;
+  --lt-color-gray-800:  #1d1e20;
+  --lt-color-gray-900:  #111213;
+  --lt-shadowDefault:  0 2px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 4px -1px rgba(0, 0, 0, 0.04);
+  --lt-shadowActive:  0 0 8px -2px rgba(0, 0, 0, 0.1), 0 6px 20px -3px rgba(0, 0, 0, 0.2);
+  --lt-color-white:  #fff !important;
+  --lt-color-black:  #111213 !important;
+  --lt-color-transparent:  rgba(255, 255, 255, 0) !important;
+  --lt-color-background-light:  var(--lt-color-gray-100) !important;
+  --lt-color-background-default:  var(--lt-color-gray-200) !important;
+  --lt-color-background-dark:  var(--lt-color-gray-300) !important;
+  --lt-color-border-light:  var(--lt-color-gray-200) !important;
+  --lt-color-border-default:  var(--lt-color-gray-300) !important;
+  --lt-color-border-dark:  var(--lt-color-gray-400) !important;
+  --lt-color-text-very-light:  var(--lt-color-gray-500) !important;
+  --lt-color-text-light:  var(--lt-color-gray-600) !important;
+  --lt-color-text-default:  var(--lt-color-gray-700) !important;
+  --lt-color-text-dark:  var(--lt-color-gray-800) !important;
+  --lt-color-overlay-default:  #fff !important;
+  --lt-color-overlay-dark:  #fff !important;
+  --lt-color-overlay-transparent:  rgba(0, 0, 0, 0.1) !important;
+  --lt-shadow-website-overlay:  0 0 7px 0 rgba(0, 0, 0, 0.3) !important;
+}
